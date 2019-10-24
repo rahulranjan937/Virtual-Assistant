@@ -3,9 +3,8 @@ import wikipedia
 import wolframalpha
 import speech_recognition as sr
 import win32com.client as wincl
-
+#speak text
 def speak(text):
-    #print(text)
     s= wincl.Dispatch("SAPI.SpVoice")
     s.Speak(text)
    
