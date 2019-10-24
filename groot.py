@@ -3,7 +3,7 @@ import win32com.client as wincl
 from time import ctime
 import os
 
-
+#speak text
 def speak(text):
     print(text)
     s= wincl.Dispatch("SAPI.SpVoice")
